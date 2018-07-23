@@ -1,0 +1,31 @@
+{
+  "name": "Raja foot Cort",
+  "short_name": "Raja",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ccc",
+  "theme_color": "#5FAAE5",
+  "icons": [
+    {
+      "src": "/img/wine.jpg",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/wine.jpg",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/wine.jpg",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/wine.jpg",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
