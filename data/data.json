@@ -2,7 +2,7 @@
   "food":[
     {
         "id":1,
-      "image":"img/Sandwich.jpg",
+      "image":"img/sandwich.jpg",
       "name":"The Perfect Sandwich, A Real NYC Classic",
       "description":"ust some random text, lorem ipsum text praesent tincidunt ipsum lipsum.",
       "cuisine_type": "Asian",
@@ -38,7 +38,7 @@
     },
     {
       "id":2,
-      "image":"img/Steak.jpg",
+      "image":"img/steak.jpg",
       "name":"Let Me Tell You About This Steak",
       "description":"Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.",
       "reviews": [{
