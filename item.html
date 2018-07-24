@@ -59,6 +59,11 @@ div.appendChild(h1);
 var p=document.createElement("p");
 p.textContent=foodItems[i].description;
 div.appendChild(p);
+var a=document.createElement("a");
+a.href=("indexedDB/index.html");
+a.href="indexedDB/index.html?id="+foodItems[i].id;
+a.textContent="orderItem"
+div.appendChild(a);
 var div1=document.querySelector("#sub");
 for (var j = 0; j < foodItems[i].reviews.length; j++) {
   var h1=document.createElement("h1");

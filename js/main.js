@@ -33,7 +33,7 @@ function foods(foodItems) {
   subDiv.appendChild(p);
   var link=document.createElement("a");
   link.href="item.html?id="+foodItems[i].id;
-  link.textContent="View Profile";
+  link.textContent="View REVIEW";
   subDiv.appendChild(link);
 
   }

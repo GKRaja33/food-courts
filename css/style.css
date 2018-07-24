@@ -1,6 +1,9 @@
 body{
   background-color: #ddd;
 }
+a{
+  font-size: 33px;
+}
 header{
   width: 95%;
   color: white;

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+  </head>
+  <body style="text-align:center">
+    <div class="raja">
+
+    </div>
+    <h1>Sample IndexedDb Test Form</h1>
+    <form name="empForm" action="" method="" id="myForm" class="myForm">
+      <input type="text" name="empid" id="empid"><br>
+      <input type="text" name="fname" id="fname"><br>
+      <input type="text" name="lname" id="lname" ><br>
+      <input type="button" name="submit" value="ADD" onclick="data()">
+
+    </form>
+  </body>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript">
+    // var get={};
+    var query=window.location.search.substring(1).split("&");
+    for(var i=0; i<query.length; i++){
+      if(query[i]==="")
+      continue;
+      var parameter=query[i].split("=");
+      // console.log(parameter);
+    }
+    console.log(parameter);
+    function loadJSON(file,callback){
+      var xhr=new XMLHttpRequest();
+      xhr.overrideMimeType("application/json");
+      xhr.open("GET",file,true);
+      xhr.onreadystatechange=function(){
+        if (xhr.readyState===4 && xhr.status=="200") {
+          callback(xhr.responseText);
+        }
+      };
+      xhr.send();
+    }
+    loadJSON('../data/data.json', function(text){
+      var data=JSON.parse(text);
+      console.log(data);
+      foods(data.food);
+      // day(data.food.reviews);
+    })
+function foods(foodItems){
+  for(var i=0; i<foodItems.length; i++){
+    if(parameter[1]==foodItems[i].id){
+var div=document.querySelector(".raja");
+var h1=document.createElement("h1");
+h1.textContent=foodItems[i].name;
+div.appendChild(h1);
+}
+}
+}
+</script>
+</html>
