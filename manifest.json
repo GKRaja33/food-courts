@@ -1,7 +1,7 @@
 {
   "name": "Raja foot Cort",
   "short_name": "Raja",
-  "start_url": "rajafood_court.com",
+  "start_url": ".",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ccc",
