@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-wrap:wrap;
+}
+img {
+  width: 100%;
+}
+.subdiv {
+  border: 3px solid #00f;
+  border-radius: 1%;
+  box-shadow: 3px 3px 3px #000;
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+}
+@media only screen and (min-width:481px) and (max-width:780px) {
+  .subdiv{
+    width: 40%;
+  }
+}
+@media only screen and (min-width:780px) and (max-width:1380px) {
+  .subdiv{
+    width: 40%;
+  }
+}
