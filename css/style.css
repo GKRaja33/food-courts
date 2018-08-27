@@ -1,12 +1,12 @@
-body{
+/* body{
   background-color: #ddd;
-}
-a{
+} */
+.main a{
   font-size: 18px;
   background: blue;
   color:#fff;
   display:block;
-  box-shadow:3px 3px 3px #ddd;
+  box-shadow:3px 3px 3px 3px #ddd;
   text-decoration: none;
   padding:1%;
 }
@@ -33,30 +33,27 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  box-shadow:10px 10px 10px 10px #ddd;
   margin: 0 auto 0 auto;
   width: 83%;
 }
 .subdiv{
-  background-color: white;
   width: 23%;
-  border: 3px solid #0000ff;
+  box-shadow:10px 10px 10px 10px #ddd;
+  border: 3px solid #f0ffff;
   border-radius: 1%;
-  box-shadow: 3px 3px 3px #ddd;
   margin: 2%;
   padding: 2%;
   text-align: center;
 }
-.subdiv1{
-  background-color: white;
-  width: 60%;
-  border: 3px solid #0000ff;
-  border-radius: 1%;
-  box-shadow: 3px 3px 3px #ddd;
-  margin: 2%;
-  padding: 2%;
-  text-align: center;
+header a img {
+  width: 3%;
 }
-img{
+header a img:hover{
+box-shadow: 3px 3px 8px 3px #2df;
+border: 3px solid #ffdead;
+}
+.main img{
   width: 90%;
   height: 333px;
 }
