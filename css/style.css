@@ -61,9 +61,15 @@ border: 3px solid #ffdead;
   .subdiv{
     width: 90%;
   }
+  header a img {
+  width: 9%;
+}
 }
 @media only screen and (min-width:481px) and (max-width:780px) {
   .subdiv{
     width: 40%;
   }
+  header a img {
+  width: 5%;
+}
 }
